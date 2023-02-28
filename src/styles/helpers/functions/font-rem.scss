@@ -1,0 +1,14 @@
+@use "../vars" as vars;
+
+/**
+ * フォントサイズのrem値計算
+ *
+ * @param {number} $fz
+*/
+@function font-rem($fz: vars.$root-font-size) {
+  @if meta.type-of($fz) != number {
+    @error Use number type for "$fz", value is "#{$fz}";
+  }
+
+  @return ($fz / vars.$root-font-size) * 1rem;
+}

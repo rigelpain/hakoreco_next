@@ -1,0 +1,10 @@
+/**
+ * スクロールバーを非表示にする
+ */
+@mixin hide-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

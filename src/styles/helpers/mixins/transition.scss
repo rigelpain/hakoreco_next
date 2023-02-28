@@ -1,0 +1,18 @@
+/**
+ * トランジションの指定
+ *
+ * @param {string} $tfunc
+ * @param {number} $duration
+ * @param {number} $delay
+ * @param {list} $props
+ */
+@mixin transition($tfunc: ease, $duration: 300, $delay: 0, $props...) {
+  @if meta.type-of($duration) != number {
+    @error Use number type for "$duration", value is "#{$duration}";
+  }
+  /* stylelint-disable */
+  transition-property: $props;
+  transition-duration: $duration * 1ms;
+  transition-timing-function: $tfunc;
+  transition-delay: $delay * 1ms;
+}

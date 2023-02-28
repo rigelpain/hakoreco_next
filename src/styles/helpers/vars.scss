@@ -1,0 +1,7 @@
+// メディアクエリに対して、min-widthで設定される
+$bp: (
+  from_tablet: 600,
+  from_desktop: 1024,
+);
+
+$root-font-size: 16;

@@ -1,0 +1,23 @@
+# ライブラリ
+
+- [SWR](https://swr.vercel.app/ja)
+  - 状態管理（グローバルステート）にも使用する
+- [classnames](https://www.npmjs.com/package/classnames)
+  - CSS Modules を使用するため
+- [Vitest](https://vitest.dev/)
+- [ChakraUI](https://chakra-ui.com/)
+  - [Emotion](https://emotion.sh/docs/introduction)
+  - [Framer motion](https://www.framer.com/docs/introduction/)
+- [React Use](https://github.com/streamich/react-use)
+  - カスタムフック系ライブラリ
+    - [参考](https://qiita.com/st_12/items/c4e4c1237e97c1b6a657)
+    - [デモ](https://streamich.github.io/react-use/?path=/story/components-usekey--demo)
+- [React Hooks Form](https://react-hook-form.com/)
+  - [Zod](https://github.com/colinhacks/zod)
+    - バリデーション
+- [Prettier](https://prettier.io/)
+- [Stylelint](https://stylelint.io/)
+- [ESLint](https://eslint.org/)
+- [hygen](https://www.hygen.io/)
+  - ページ・コンポーネント雛形作成のため
+- [husky](https://typicode.github.io/husky/#/)

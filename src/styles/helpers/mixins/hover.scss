@@ -1,0 +1,15 @@
+/**
+ * ホバー・フォーカス・アクティブをまとめて指定する
+ */
+@mixin hover {
+  &:focus,
+  &:active {
+    @content;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
